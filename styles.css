@@ -1,0 +1,44 @@
+   * {
+    margin: 0; /* Elimina el margen predeterminado de todos los elementos */
+    padding: 0; /* Elimina el relleno predeterminado de todos los elementos */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el cálculo del ancho y alto del elemento */
+}
+
+body {
+    display: flex; /* Utiliza un contenedor flexible para organizar los elementos hijos */
+    align-items: center; /* Centra los elementos hijos verticalmente */
+    justify-content: center; /* Centra los elementos hijos horizontalmente */
+    height: 100vh; /* Ocupa la altura completa de la ventana */
+    background-color: #bebeff; /* Color de fondo púrpura claro */
+    font-family: Arial, sans-serif; /* Establece la fuente a Arial o, si no está disponible, una fuente sans-serif */
+    color: #ffffff; /* Color de texto blanco */
+}
+
+div {
+    text-align: center; /* Alinea el texto en el centro del div */
+    padding: 20px; /* Rellena el interior del div con 20 píxeles de espacio */
+    border-radius: 15px; /* Redondea las esquinas del div con un radio de 15 píxeles */
+    background-color: #16213e; /* Establece un color de fondo oscuro azul marino */
+    max-width: 600px; /* Limita el ancho del div a 600 píxeles */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Añade una sombra con desplazamiento vertical de 10px, desenfoque de 20px y opacidad del 30% */
+}
+
+h1 {
+    font-size: 2.5em; /* Establece el tamaño de la fuente a 2.5 veces el tamaño estándar */
+    color: #e94560; /* Establece el color del texto a un tono rojo rosado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Añade una sombra al texto con desplazamiento de 2px y opacidad del 70% */
+    margin-bottom: 20px; /* Añade un margen inferior de 20 píxeles */
+}
+
+img {
+    width: 80%; /* Establece el ancho de la imagen al 80% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción de la imagen */
+    border-radius: 10px; /* Redondea las esquinas de la imagen con un radio de 10 píxeles */
+    margin-bottom: 20px; /* Añade un margen inferior de 20 píxeles */
+}
+
+p {
+    font-size: 1.0em; /* Establece el tamaño de la fuente estándar */
+    color: #a8dadc; /* Establece el color del texto a un tono azul claro */
+    line-height: 1.5; /* Establece el interlineado a 1.5 para mejorar la legibilidad */
+}
